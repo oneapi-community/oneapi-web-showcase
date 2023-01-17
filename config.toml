@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'oneAPI Community Page'
+theme = 'projectshowcase-theme'
+
+[params]
+sitename = "oneAPI Community"

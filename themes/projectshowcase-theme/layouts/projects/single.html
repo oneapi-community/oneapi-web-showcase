@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1> {{ .Title }} </h1>
+    <h4> by <a class="colorit" href="https://github.com/{{.Params.githubuser}}">{{.Params.author}}</a> </h4>
+
+<header class="header1">
+    <nav>
+        <ul class="infobar" flex>
+            <li> <a href="{{.Params.githublink}}"><i class="icss-github"></i></li>
+            <li> <a href="{{.Params.githublink}}"><i class="icss-home"></i></li>
+            <li> Audience: {{.Params.projecttype}}
+        </ul>
+    </nav>
+</header>
+<br>
+<hr>
+
+<div class="content1">
+{{ .Content }}
+</div>
+{{ end }}
+

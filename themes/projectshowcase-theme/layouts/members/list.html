@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+
+<link rel="stylesheet" href="iconicss.min.css">
+<h1>{{ .Title }}</h1>
+<ul>
+<div class="projectgrid-container">
+    {{ range where .Site.RegularPages "Section" "members" }}
+        {{ $username := .Params.githubuser }}
+        {{ $output := getJSON "https://api.github.com/users/" $username }}
+        {{ $avatar := index $output "avatar_url" }}
+        {{ $bio := index $output "bio" }}
+        {{ $repo := index $output "html_url" }}
+        <div class="membergrid-box"> <a href="{{ .RelPermalink }}" class="block">
+                <h3> {{ .Title }} </h3>
+                <figure>
+                    <img src={{ $avatar}} style="border-radius: 8px; width: 15vw; min-width: 140px;"/>
+                </figure>
+                <div class="comm-bar">
+                    <a href="{{.Params.githublink}}"><i class="icss-home"></i></a> 
+                </div>
+        </div>
+    {{ end }}
+</div>
+
+{{ end }}
+

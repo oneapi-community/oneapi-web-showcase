@@ -1,0 +1,32 @@
+{{ define "main" }}
+<h1> {{ .Title }} </h1>
+
+{{ $username := .Params.githubuser }}
+{{ $output := getJSON "https://api.github.com/users/" $username }}
+{{ $url := index $output "avatar_url" }}
+{{ $bio := index $output "bio" }}
+{{ $repo := index $output "html_url" }}
+
+<header class="header1">
+    <nav>
+        <ul class="infobar" flex>
+            <li> <a href="{{ $repo }}"><i class="icss-github"></i></li>
+        </ul>
+    </nav>
+</header>
+
+<br>
+
+<div>
+<img class="avatarcss" src="{{ $url }}"/></img>
+</div>
+<br>
+<br>
+Bio:  {{ $bio }}
+<hr>
+
+<div class="content1">
+{{ .Content }}
+</div>
+{{ end }}
+

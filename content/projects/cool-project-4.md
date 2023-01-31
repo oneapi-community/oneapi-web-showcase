@@ -2,7 +2,7 @@
 title: "Cool Project 4"
 date: 2023-01-15T20:11:32-08:00
 draft: true
-projecttype:
+projecttype: OpenVINO
 githubuser:
 summary: 
 githublink:

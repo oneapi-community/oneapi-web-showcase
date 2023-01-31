@@ -2,10 +2,10 @@
 title: "Cool Project2"
 date: 2023-01-15T13:13:32-08:00
 draft: true
-projecttype:
+projecttype: AI
 githubuser:
 summary: 
-githublink:
+githublink: https://github.com/yanshengjia/artificial-intelligence
 tags:
 ---
 

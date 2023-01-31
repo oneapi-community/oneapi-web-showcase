@@ -3,8 +3,7 @@
 
 <link rel="stylesheet" href="iconicss.min.css">
 <h1>{{ .Title }}</h1>
-<ul>
-<div class="projectgrid-container">
+<div class="membergrid-container">
     {{ range where .Site.RegularPages "Section" "members" }}
         {{ $username := .Params.githubuser }}
         {{ $output := getJSON "https://api.github.com/users/" $username }}
@@ -17,7 +16,8 @@
                     <img src={{ $avatar}} style="border-radius: 8px; width: 15vw; min-width: 140px;"/>
                 </figure>
                 <div class="comm-bar">
-                    <a href="{{.Params.githublink}}"><i class="icss-home"></i></a> 
+                    <a href="{{.Params.githublink}}"><i class="icss-github"></i></a> 
+                    {{ .Content }}
                 </div>
         </div>
     {{ end }}

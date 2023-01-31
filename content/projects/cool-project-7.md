@@ -2,10 +2,10 @@
 title: "Cool Project 7"
 date: 2023-01-15T20:11:33-08:00
 draft: true
-projecttype:
+projecttype: AI
 githubuser:
 summary: 
-githublink:
+githublink: https://github.com/Zulko/easyAI
 tags: ["innovators"]
 ---
 

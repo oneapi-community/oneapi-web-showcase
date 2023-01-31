@@ -1,5 +1,65 @@
 {{ define "main" }}  
+<link rel="stylesheet" href="iconicss.min.css">
+<ul>
 <div>
-    <h1 class=title> {{.Site.Title}} </h1>
+    <h1 class=fronttitle> {{.Site.Title}} </h1>
+    <p>
 </div>
-{{ end }}  
+
+<h2 class=fronttitle> SYCL Projects </h2>
+
+<div class="front-grid-list">
+    {{ range where .Site.Pages ".Params.projecttype" "SYCL"}}
+    <div class="front-grid-item">
+        {{ $s := .Params.githublink }}
+        {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
+        <span></span> <a href="{{ .Params.githublink }}"> <img src={{ $repoimage }}> </img> </a>
+    </div>
+    {{ end }}
+</div>
+
+<h2 class=fronttitle> HPC Projects </h2>
+
+<div class="front-grid-list">
+    {{ range where .Site.Pages ".Params.projecttype" "HPC"}}
+    <div class="front-grid-item">
+        {{ $s := .Params.githublink }}
+        {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
+        <span></span> <img src={{ $repoimage }}> </img>
+    </div>
+    {{ end }}
+</div>
+
+<h2 class=fronttitle> AI Projects </h2>
+
+<div class="front-grid-list">
+    {{ range where .Site.Pages ".Params.projecttype" "AI"}}
+    <div class="front-grid-item">
+        {{ $s := .Params.githublink }}
+        {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
+        <span></span> <img src={{ $repoimage }}> </img>
+    </div>
+    {{ end }}
+</div>
+
+<!--
+<div>
+    <h2 class=fronttitle> oneAPI Community Members </h2>
+</div>
+
+    <div style="front-flex-members">
+         {{ range (where .Site.Pages "Section" "members") }}
+               {{ range .Pages }}
+               <div style="front-flex-members-item">
+                  {{ .Title }}
+               </div>
+               {{ end }}
+        {{ end }}
+    </div>
+
+<div>
+    <h2 class=fronttitle> oneAPI Community Projects</h2>
+</div> -->
+
+
+{{ end }}

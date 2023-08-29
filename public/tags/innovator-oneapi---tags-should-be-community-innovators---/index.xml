@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>innovator, oneapi, &lt;!--- tags should be community, innovators ---&gt; on oneAPI Community Page</title>
+    <link>http://example.org/tags/innovator-oneapi---tags-should-be-community-innovators---/</link>
+    <description>Recent content in innovator, oneapi, &lt;!--- tags should be community, innovators ---&gt; on oneAPI Community Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jan 2023 10:31:21 -0800</lastBuildDate><atom:link href="http://example.org/tags/innovator-oneapi---tags-should-be-community-innovators---/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gabrielle Amoranto</title>
+      <link>http://example.org/members/gabrielle-amoranto/</link>
+      <pubDate>Fri, 27 Jan 2023 10:31:21 -0800</pubDate>
+      
+      <guid>http://example.org/members/gabrielle-amoranto/</guid>
+      <description>Awesome program manager at Intel.</description>
+    </item>
+    
+  </channel>
+</rss>

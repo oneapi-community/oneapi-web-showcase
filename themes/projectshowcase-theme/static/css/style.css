@@ -204,7 +204,6 @@
 
 .header1 {
     display: flex;
-    justify-contents: space-between;
     align-items: center;
     padding: 5px 0px;
     background-color: rgba(85,0,85,0);
@@ -213,33 +212,29 @@
 }
 
 .infobar {
-    list-styles: none;
     display: flex;
 }
 
 .infobar li {
   display: inline-block;
-  list-style-type: none;
   margin: 0;
   padding: 0px 20px;
   color: yellow;
 }
 
 .footer {
-    list-styles: none;
 /*    background: rgba(0,0,0,.55);  */
     background: black;
-    padding: 10px;
-    text-align: center;
+    padding: 2px;
+    text-align: left;
     bottom: 0;
-    position: fixed;
     width: 100%;
+    background: rgba(0,0,0,.55);  
 }
 
 .footer-ul li {
   display: inline-block;
   color: white;
-  list-style-type: none;
   margin: 0;
   padding: 0px 20px;
 }

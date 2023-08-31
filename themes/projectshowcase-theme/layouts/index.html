@@ -1,65 +1,27 @@
-{{ define "main" }}  
+{{ define "main" }}
+<a href="https://github.com/oneapi-community/oneapi-web-showcase"><img decoding="async" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_red_aa0000.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" loading="lazy" data-recalc-dims="1"></a>
 <link rel="stylesheet" href="iconicss.min.css">
-<ul>
-<div>
-    <h1 class=fronttitle> {{.Site.Title}} </h1>
-    <p>
-</div>
 
-<h2 class=fronttitle> SYCL Projects </h2>
+<img src=images/oneapi-community-projects-banner.svg width=800 height=300/>
+<br>
 
-<div class="front-grid-list">
-    {{ range where .Site.Pages ".Params.projecttype" "SYCL"}}
-    <div class="front-grid-item">
-        {{ $s := .Params.githublink }}
-        {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
-        <span></span> <a href="{{ .Params.githublink }}"> <img src={{ $repoimage }}> </img> </a>
-    </div>
+Welcome to the oneAPI Community Projects Showcase. Here you can see a cross section of projects that the community has submitted or we have discovered to be projects. The projects are not guaranteed to be updated. For a more curated version of the best projects see <a https://github.com/oneapi-community/awesome-oneapi>Awesome oneAPI</a>.
+
+Have a project that you're interested you'd like to see here? Fork our repo and add your project.
+<br>
+<br>
+
+
+<div class="projectgrid-container">
+    {{ range where .Site.RegularPages "Section" "projects" }}
+	<div class="projectgrid-item">
+                {{ $s := .Params.githublink }}
+                {{ if .Params.githublink  }}
+                  {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
+                  <span></span> <a href="{{ .Params.githublink }}"> <img src={{ $repoimage }}> </img> </a>
+                {{ end }}
+        </div>
     {{ end }}
 </div>
-
-<h2 class=fronttitle> HPC Projects </h2>
-
-<div class="front-grid-list">
-    {{ range where .Site.Pages ".Params.projecttype" "HPC"}}
-    <div class="front-grid-item">
-        {{ $s := .Params.githublink }}
-        {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
-        <span></span> <img src={{ $repoimage }}> </img>
-    </div>
-    {{ end }}
-</div>
-
-<h2 class=fronttitle> AI Projects </h2>
-
-<div class="front-grid-list">
-    {{ range where .Site.Pages ".Params.projecttype" "AI"}}
-    <div class="front-grid-item">
-        {{ $s := .Params.githublink }}
-        {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
-        <span></span> <img src={{ $repoimage }}> </img>
-    </div>
-    {{ end }}
-</div>
-
-<!--
-<div>
-    <h2 class=fronttitle> oneAPI Community Members </h2>
-</div>
-
-    <div style="front-flex-members">
-         {{ range (where .Site.Pages "Section" "members") }}
-               {{ range .Pages }}
-               <div style="front-flex-members-item">
-                  {{ .Title }}
-               </div>
-               {{ end }}
-        {{ end }}
-    </div>
-
-<div>
-    <h2 class=fronttitle> oneAPI Community Projects</h2>
-</div> -->
-
-
 {{ end }}
+

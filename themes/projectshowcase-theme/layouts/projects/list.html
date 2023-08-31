@@ -4,12 +4,11 @@
 <div class="projectgrid-container">
     {{ range where .Site.RegularPages "Section" "projects" }}
 	<div class="projectgrid-item">
-                <h3> {{ .Title }} </h3>
-			<div class="projecticon">
-                           <span></span> <img src="/clipart-software-biyazR4iL.jpeg"></img>
-			</div>
-
-                {{.Summary}}
+                {{ $s := .Params.githublink }}
+                {{ if .Params.githublink  }}
+                  {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
+                  <span></span> <a href="{{ .Params.githublink }}"> <img src={{ $repoimage }}> </img> </a>
+                {{ end }}
         </div>
     {{ end }}
 </div>

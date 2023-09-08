@@ -3,20 +3,39 @@
     font-size: 125%;  
     line-height: 1.5;  
     margin: 0 auto;  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+/*    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  */
+    font-family: 'Lato', sans-serif;
   }
 
   .site {
-      color: shark;
-      background-image: linear-gradient(to right, #8360c3, #2ebf91);
+      background-color:shark;
+      font-size: 20px;  
+      background-color: RGB(89,101,119);
+/*      background-image: linear-gradient(to right, #8360c3, #2ebf91);*/
   }
 
   .title{
-      color: shark;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+   /*   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  */
+      font-family: 'Lato', sans-serif;
       align-items: center;
       height: 5px;
   }
+
+.front-banner-image{
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+  }
+
+ .intro-text {
+    margin-left: 2%;
+    margin-right: 2%;
+    color:whitesmoke;
+
+  }
+
 
   .fronttitle {
       height: 5vh;
@@ -72,7 +91,7 @@
    align-items: center;  
    justify-content: space-between;  
    height: 25px;  
-   background: rgba(0,0,0,.55);  
+   background: rgba(0,0,0,.85);  
    padding: 10px;
  }  
  .navbar__right{  

@@ -7,7 +7,7 @@
                 {{ $s := .Params.githublink }}
                 {{ if .Params.githublink  }}
                   {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
-                  <span></span> <a href="{{ .Params.githublink }}"> <img src={{ $repoimage }}> </img> </a>
+                  <span></span> <a href="{{ .Params.githublink }}"> <img src={{ $repoimage }}> width:35% height:60% </img> </a>
                 {{ end }}
         </div>
     {{ end }}

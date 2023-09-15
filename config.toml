@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://oneapi-community.github.io'
 languageCode = 'en-us'
 title = 'oneAPI Community Page'
 theme = 'projectshowcase-theme'

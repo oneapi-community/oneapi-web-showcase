@@ -124,7 +124,7 @@
   grid-template-columns: repeat(auto-fit, minmax(359px, 4fr));
 /*  grid-template-columns: 1fr 1fr 1fr; /* create template with 5 columns per row */
   width: 900;
-  min-height: 100vh ;
+  min-height: 50vh ;
   padding: 4;
   margin-left: 5%;
 }

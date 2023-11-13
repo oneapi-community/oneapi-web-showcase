@@ -21,11 +21,22 @@
       height: 5px;
   }
 
+  .front-banner img {
+    width: 100%;
+    align-items: center;
+  }
+
 .front-banner-image{
-    margin:auto;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    z-index: -1;
+
+
+/*    margin:auto;
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:center;*/
     
   }
 

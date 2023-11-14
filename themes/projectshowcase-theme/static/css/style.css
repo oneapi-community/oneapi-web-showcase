@@ -131,10 +131,10 @@
   display: grid;
   grid-gap: 5px 5px;
   grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
-  grid-template-columns: repeat(auto-fit, minmax(359px, 4fr));
+  grid-template-columns: repeat(auto-fit, minmax(356px, 4fr));
+  /*grid-template-columns: repeat(auto-fit, minmax(359px, 4fr));*/
 /*  grid-template-columns: 1fr 1fr 1fr; /* create template with 5 columns per row */
-  width: 900;
-  min-height: 50vh ;
+  min-height: 50vh;
   padding: 4;
   margin-left: 5%;
 }
@@ -144,8 +144,10 @@
     }
 
 .projectgrid-item img {
-      width: 350px;
-      height: 200px;
+/*      width: 350px;
+      height: 200px;*/
+      width: 98%;
+      height: 98%;
     }
 
 .projecticon img {

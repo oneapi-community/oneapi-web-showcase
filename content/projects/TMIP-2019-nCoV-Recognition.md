@@ -2,7 +2,7 @@
 title: "TMIP 2019 NCoV Recognition"
 date: 2023-10-30T11:19:26-07:00
 draft: true
-githublink:
+githublink: https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition
 tags: python, healthcare
 ---
 

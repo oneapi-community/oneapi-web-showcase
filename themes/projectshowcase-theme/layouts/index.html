@@ -22,7 +22,7 @@ Have a project that you're interested you'd like to see here? Fork our repo and 
 <br>
 
 <div class="projectgrid-container">
-    {{ range where .Site.RegularPages "Section" "projects" }}
+    {{ range (where .Site.RegularPages "Section" "projects").Reverse }}
 	<div class="projectgrid-item">
                 {{ $s := .Params.githublink }}
                 {{ if .Params.githublink  }}

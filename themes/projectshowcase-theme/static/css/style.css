@@ -129,14 +129,15 @@
 
  .projectgrid-container {
   display: grid;
-  grid-gap: 5px 5px;
+  grid-gap: 8px 8px;
   grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
   grid-template-columns: repeat(auto-fit, minmax(356px, 4fr));
   /*grid-template-columns: repeat(auto-fit, minmax(359px, 4fr));*/
 /*  grid-template-columns: 1fr 1fr 1fr; /* create template with 5 columns per row */
   min-height: 50vh;
-  padding: 4;
+  padding: 6;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 .projectgrid-item {
@@ -151,7 +152,6 @@
     }
 
 .projecticon img {
-
   width: 60%;
   height: 60%;
   object-fit: cover;

@@ -21,6 +21,18 @@ Have a project that you're interested you'd like to see here? Fork our repo and 
 <br>
 <br>
 
+<h2> Recently updated projects </h2>
+
+<div class="projectgrid-recent-container">
+  {{ range partial "return-recent-github-projects.html" . }}
+	<div class="projectgrid-recent-items">
+    {{ $cur_github_url := .html_url }}
+    {{ $repo_image := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $cur_github_url }}
+    <a href="{{ $cur_github_url }}"> <img src={{ $repo_image }}> </img> </a>
+  </div> 
+  {{ end }}
+</div>
+<!-- 
 <div class="projectgrid-container">
     {{ range (where .Site.RegularPages "Section" "projects").Reverse }}
 	<div class="projectgrid-item">
@@ -32,5 +44,6 @@ Have a project that you're interested you'd like to see here? Fork our repo and 
         </div>
     {{ end }}
 </div>
+-->
 {{ end }}
 

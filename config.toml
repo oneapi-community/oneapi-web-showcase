@@ -5,3 +5,4 @@ theme = 'projectshowcase-theme'
 
 [params]
 sitename = "oneAPI Community"
+githubToken = "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"

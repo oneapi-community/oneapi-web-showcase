@@ -1,17 +1,16 @@
 {{ define "main" }}
 <link rel="stylesheet" href="iconicss.min.css">
-<h2 style="color: white;" class="list-headers">oneAPI Community Projects</h2>
+<h1>{{ .Title }}</h1>
 <div class="projectgrid-container">
     {{ range where .Site.RegularPages "Section" "projects" }}
 	<div class="projectgrid-item">
                 {{ $s := .Params.githublink }}
                 {{ if .Params.githublink  }}
                   {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $s }}
-                  <span></span> <a href="{{ .Params.githublink }}"> <img src={{ $repoimage }}> </img> </a>
+                  <span></span> <a href="{{ .Params.githublink }}"> <img src={{ $repoimage }}> width:35% height:60% </img> </a>
                 {{ end }}
         </div>
     {{ end }}
 </div>
 
 {{ end }}
-

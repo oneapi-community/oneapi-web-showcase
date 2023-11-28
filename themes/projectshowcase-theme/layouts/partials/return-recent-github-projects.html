@@ -10,7 +10,5 @@
         {{ $repos = $repos | append . }}
       {{ end }}
     {{ end }}
-
     {{ $gh_sorted_by_activity := sort $repos "updated_at"  "desc"}}
-    {{ print $gh_sorted_by_activity }}
     {{ return $gh_sorted_by_activity }}

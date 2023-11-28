@@ -1,0 +1,18 @@
+
+{{ define "main" }}
+
+<link rel="stylesheet" href="iconicss.min.css">
+<h2 style="color: white;" class="list-recent-projects">Recently Updated oneAPI Projects</h2>
+<div class="projectgrid-container">
+  {{range partial "return-recent-github-projects.html" . }}
+   	<div class="projectgrid-item">
+                {{ $cur_github_url := .html_url}}
+                {{ $cur_date_repo := .updated_at }}
+                  {{ $repoimage := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $cur_github_url }}
+                  <span></span> <a href="{{ $cur_github_url }}"> <img src={{ $repoimage }}> </img> </a>
+        </div> 
+    {{ end }}
+</div>
+
+{{ end }}
+

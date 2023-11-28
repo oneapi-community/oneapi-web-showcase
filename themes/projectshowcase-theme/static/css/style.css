@@ -1,5 +1,5 @@
   body {  
-    background-color: #fcfcfc;  
+    background-color: fcfcfc;  
     font-size: 125%;  
     line-height: 1.5;  
     margin: 0 auto;  
@@ -8,9 +8,9 @@
   }
 
   .site {
-      background-color:shark;
-      font-size: 20px;  
-      background-color: RGB(89,101,119);
+      background-color:#3f3f3f;
+      font-size: 23px;  
+/*      background-color: RGB(89,101,119);*/
 /*      background-image: linear-gradient(to right, #8360c3, #2ebf91);*/
   }
 
@@ -26,13 +26,29 @@
     align-items: center;
   }
 
+  .hero-image {
+    background-image: url("../images/oneapi-project-showcase-banner.svg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
 .front-banner-image{
     position: absolute;
     width: 80%;
     height: 80%;
     z-index: -1;
-
-
 /*    margin:auto;
     display:flex;
     align-items:center;
@@ -40,15 +56,34 @@
     
   }
 
+  .button-more {
+    background-color: gold;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    padding: 2px 9px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 18px;
+  }
+
  .intro-text {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     color:whitesmoke;
 
   }
 
   .fronttitle {
       height: 5vh;
+        margin-left: 5%;
+        margin-right: 5%;
+  }
+  
+  .front-text {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .front-flex-members {
@@ -95,6 +130,12 @@
   .colorit {
         color: shark;
   }
+  .list-headers {
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
     
  .navbar{  
    display: flex;  
@@ -152,7 +193,7 @@
       height: 98%;
   }
 
- .projectgrid-recent-container {
+.projectgrid-recent-container {
   display: grid;
   grid-gap: 5px 5px;
   grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
@@ -166,7 +207,7 @@
 
 .projectgrid-recent-items {
       border: 2px;
-    }
+}
 
 .projectgrid-recent-items img {
       display: block;
@@ -174,6 +215,9 @@
       height: 98%;
     }
 
+.list-recent-projects {
+      margin-left: 5%
+    }
 .projecticon img {
   width: 60%;
   height: 60%;
@@ -252,3 +296,19 @@
 .avatarcss {
     border-radius: 20px;
 }
+
+.project-header-with-button {
+      display: inline-block;
+      margin-left: 5%;
+      margin-right: 5%;
+}
+.project-header-with-button h2 {
+      display: flex;
+      width: 100%;
+      color: white;
+      font-weight: bold;
+    }
+
+.project-header-with-button a {
+     color: black; 
+    }

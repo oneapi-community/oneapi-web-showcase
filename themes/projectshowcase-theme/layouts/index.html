@@ -13,6 +13,7 @@
  <img width="80%" height="400px" position="center" src=/images/oneapi-project-showcase-banner.svg />
 </div>
 
+
 <div class="intro-text">
   Welcome to the oneAPI Community Projects Showcase. Here you can see a cross section of projects that the community has submitted or we have discovered to be projects. The projects are not guaranteed to be updated. For a more curated version of the best projects see <a https://github.com/oneapi-community/awesome-oneapi>Awesome oneAPI</a>.</p>
 
@@ -21,20 +22,30 @@ Have a project that you're interested you'd like to see here? Fork our repo and 
 <br>
 <br>
 
-<h2> Recently updated projects </h2>
+<div class="project-header-with-button">
+	<h2> Recently updated projects &nbsp; &nbsp; <button class="button-more"> <a href="recent-projects"> MORE </a></button></h2> 
+</div>
 
 <div class="projectgrid-recent-container">
-  {{ range partial "return-recent-github-projects.html" . }}
+  {{ range partial "return-recent-github-projects.html" . | first 9 }}
 	<div class="projectgrid-recent-items">
     {{ $cur_github_url := .html_url }}
+    {{ $cur_date_repo := .updated_at }}
     {{ $repo_image := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $cur_github_url }}
     <a href="{{ $cur_github_url }}"> <img src={{ $repo_image }}> </img> </a>
   </div> 
   {{ end }}
 </div>
-<!-- 
+
+<br>
+<br>
+
+<div class="project-header-with-button">
+  <h2> Project List &nbsp; &nbsp; <button class="button-more"> <a href="projects"> MORE </a> </button> </h2> 
+</div>
+ 
 <div class="projectgrid-container">
-    {{ range (where .Site.RegularPages "Section" "projects").Reverse }}
+    {{ range (where .Site.RegularPages "Section" "projects").Reverse | first 12 }}
 	<div class="projectgrid-item">
                 {{ $s := .Params.githublink }}
                 {{ if .Params.githublink  }}

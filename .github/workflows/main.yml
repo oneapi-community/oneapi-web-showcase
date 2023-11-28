@@ -33,5 +33,3 @@ jobs:
           user_email: sri.ramkrishna@intel.com
           publish_branch: main
           cname: oneapi-community.github.io
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

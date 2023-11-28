@@ -1,7 +1,7 @@
 ---
 title: "Dwarf Bench"
 date: 2023-11-14T15:07:03-08:00
-draft: true
+draft: false
 githublink: https://github.com/kurapov-peter/dwarf_bench
 tags: ['benchmark', 'sycl']
 ---

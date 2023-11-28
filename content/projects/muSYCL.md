@@ -1,7 +1,7 @@
 ---
 title: "MuSYCL"
 date: 2023-11-14T15:13:25-08:00
-draft: true
+draft: false
 githublink: https://github.com/keryell/muSYCL
 tags: ['sycl', 'music', 'audio', 'triSYCL']
 ---

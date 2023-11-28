@@ -1,7 +1,7 @@
 ---
 title: "Xpu"
 date: 2023-11-01T08:57:31-07:00
-draft: true
+draft: false
 githublink: https://github.com/fweig/xpu
 tags: sycl, library
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Mkl Verbose Toolkit"
 date: 2023-10-30T11:12:34-07:00
-draft: true
+draft: false
 githublink: https://github.com/TApplencourt/mkl-verbose-toolkit
 tags: sycl, python, mkl
 ---

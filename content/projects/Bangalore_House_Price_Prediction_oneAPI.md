@@ -2,7 +2,7 @@
 title: "Bangalore House Price Prediction with oneAPI"
 date: 2023-10-30T11:10:26-07:00
 expires: 2024-5-30
-draft: true
+draft: false
 githublink: https://github.com/aaronDev28/Bangalore_House_Price_Prediction_oneAPI
 tags: hackathon
 ---

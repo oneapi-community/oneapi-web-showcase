@@ -1,7 +1,7 @@
 ---
 title: "RayBNN_Sparse"
 date: 2023-11-01T12:49:22-07:00
-draft: true
+draft: false
 githublink: https://github.com/BrosnanYuen/RayBNN_Sparse
 tags: 
 ---

@@ -2,7 +2,7 @@
 title: "Crop prediction oneAPI"
 date: 2023-10-30T11:05:41-07:00
 expires: 2024-5-30
-draft: true
+draft: false
 githublink: https://github.com/JoelJJoseph/CROP_PREDICTION_oneAPI
 tags: hackathon
 ---

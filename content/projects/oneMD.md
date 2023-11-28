@@ -1,7 +1,7 @@
 ---
 title: "OneMD"
 date: 2023-10-30T11:29:50-07:00
-draft: true
+draft: false
 githublink: https://github.com/allisterb/oneMD
 tags: physics, fpga, simulator
 ---

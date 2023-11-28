@@ -1,7 +1,7 @@
 ---
 title: "DPCPP Svm"
 date: 2023-10-31T17:33:00-07:00
-draft: true
+draft: false
 githublink: https://github.com/floatshadow/dpcpp-svm
 tags: MKL, python, 
 ---

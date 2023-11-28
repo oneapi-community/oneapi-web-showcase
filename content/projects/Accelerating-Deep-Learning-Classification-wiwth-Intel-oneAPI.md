@@ -1,7 +1,7 @@
 ---
 title: "Accelerating Deep Learning Classification Wiwth Intel OneAPI"
 date: 2023-10-31T11:52:13-07:00
-draft: true
+draft: false 
 githublink: https://github.com/LiangXin1001/oneAPI
 tags: tutorial, AI-Analytics, pytorch
 ---

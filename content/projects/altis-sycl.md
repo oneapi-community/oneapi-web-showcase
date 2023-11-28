@@ -1,7 +1,7 @@
 ---
 title: "Altis Sycl"
 date: 2023-11-14T12:51:11-08:00
-draft: true
+draft: false
 githublink: https://github.com/esa-tu-darmstadt/altis_sycl
 tags: ['benchmark', 'sycl']
 ---

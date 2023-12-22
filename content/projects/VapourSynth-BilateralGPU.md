@@ -3,7 +3,7 @@ title: "VapourSynth BilateralGPU"
 date: 2023-11-14T15:04:45-08:00
 draft: false
 githublink: https://github.com/WolframRhodium/VapourSynth-BilateralGPU
-tags: ['sycl', 'images']
+tags: ['SYCL', 'images']
 ---
 
 Bilateral filter is a non-linear, edge-preserving and noise-reducing

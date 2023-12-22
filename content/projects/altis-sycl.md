@@ -3,7 +3,7 @@ title: "Altis Sycl"
 date: 2023-11-14T12:51:11-08:00
 draft: false
 githublink: https://github.com/esa-tu-darmstadt/altis_sycl
-tags: ['benchmark', 'sycl']
+tags: ['benchmark', 'SYCL']
 ---
 
 Altis-SYCL is a SYCL-based implementation of the Altis GPGPU benchmark

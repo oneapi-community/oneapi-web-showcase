@@ -3,7 +3,7 @@ title: "Simple Radio Telescope Backend"
 date: 2023-11-01T11:02:18-07:00
 draft: false
 githublink: https://github.com/fxzjshm/simple-radio-telescope-backend
-tags: sycl 
+tags: ['SYCL']
 ---
 
  a SYCL-based simple prototype radio telescope backend, with real time coherent dedispersion 

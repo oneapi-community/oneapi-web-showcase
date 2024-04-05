@@ -3,7 +3,7 @@ title: "Mkl Verbose Toolkit"
 date: 2023-10-30T11:12:34-07:00
 draft: false
 githublink: https://github.com/TApplencourt/mkl-verbose-toolkit
-tags: sycl, python, mkl
+tags: [sycl, python, mkl]
 ---
 
 We propose script to facilitate the generation and the parsing of Math Verbose log file:

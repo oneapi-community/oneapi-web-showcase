@@ -1,7 +1,7 @@
 ---
 title: "Diagnosify"
 date: 2024-01-23T13:14:39-08:00
-draft: true
+draft: false
 githublink: https://github.com/AK08/Diagnosify
 tags: ['social impact', 'Python', 'Tensorflow', 'jupyter', 'oneDAL', 'scikit', 'oneDNN']
 category: ['Deep Learning', 'Medical']

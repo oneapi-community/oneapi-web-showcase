@@ -1,7 +1,7 @@
 ---
 title: "Sycl Ray Tracer"
 date: 2024-01-23T13:26:38-08:00
-draft: true
+draft: false
 githublink: https://github.com/felipeagc/sycl-ray-tracer
 tags: ['raytracer', 'sycl', '']
 category: ['graphics']

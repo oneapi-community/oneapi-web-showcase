@@ -1,7 +1,7 @@
 ---
-title: "OneAPI Crop Recommendation Model"
+title: "oneAPI Crop Recommendation Model"
 date: 2024-01-23T13:04:07-08:00
-draft: true
+draft: false
 githublink: https://github.com/huziibee/OneAPI-Crop-recommendation-model
 tags: [sample, 'jupyter notebook', 'jupyter', 'oneDAL']
 category: ['learning', 'oneAPI']

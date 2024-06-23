@@ -1,7 +1,7 @@
 ---
 title: "Stable Diffusion Docker"
 date: 2024-01-23T13:35:09-08:00
-draft: true
+draft: false
 githublink: https://github.com/P2Enjoy/stable-diffusion-docker
 tags: ['container', 'docker']
 category: ['container', 'graphics', 'AI']

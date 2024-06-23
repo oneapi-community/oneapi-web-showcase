@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main # trigger deployment when using main branch
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
 jobs:
   deploy:
     runs-on: ubuntu-22.04

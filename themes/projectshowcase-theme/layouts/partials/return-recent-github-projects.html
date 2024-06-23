@@ -1,12 +1,9 @@
     {{ $repos := slice }}
-    {{ $headers := (dict "Authorization" .Site.Params.githubToken) }}
-    {{ $header := "Authorization:Bearer " }}
-    {{ $token := .Site.Params.githubToken }}
-    {{ $authHeader := printf "%s%s " $header $token }}
+    {{ $opts := dict "Authorization" (printf "Bearer %s" (getenv "GH_TOKEN")) }}
     {{ range (where .Site.RegularPages "Section" "projects").Reverse }}
       {{ $s := .Params.githublink }}
       {{ $gh_repo_query_url := replaceRE `(https://github.com)` "https://api.github.com/repos" $s }}
-      {{ with getJSON $gh_repo_query_url $headers }}
+      {{ with getJSON $gh_repo_query_url $opts }}
         {{ $repos = $repos | append . }}
       {{ end }}
     {{ end }}

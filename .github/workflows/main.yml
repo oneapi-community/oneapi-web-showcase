@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main # trigger deployment when using main branch
-runs:
-  using: 'node20'
 jobs:
   deploy:
     runs-on: ubuntu-22.04

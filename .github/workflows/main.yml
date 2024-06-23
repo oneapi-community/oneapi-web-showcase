@@ -6,6 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    environment: HUGOSHOWCASE
     permissions:
       contents: write
     steps:
@@ -25,7 +26,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
-          personal_token: ${{ secrets.HUGO }}
+          #personal_token: ${{ secrets.HUGO }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           external_repository: oneapi-community/oneapi-community.github.io
           publish_dir: ./public
           keep_files: true

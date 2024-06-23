@@ -26,8 +26,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
-          #personal_token: ${{ secrets.HUGO }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.HUGO }}
           external_repository: oneapi-community/oneapi-community.github.io
           publish_dir: ./public
           keep_files: true

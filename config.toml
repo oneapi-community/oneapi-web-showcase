@@ -5,3 +5,9 @@ theme = 'projectshowcase-theme'
 
 [params]
 sitename = "oneAPI Community"
+
+[security]
+  [security.funcs]
+    getenv = ['^GH_TOKEN']
+
+

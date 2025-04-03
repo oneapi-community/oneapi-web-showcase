@@ -53,4 +53,3 @@ jobs:
           publish_branch: main
           cname: oneapi-community.github.io
 
-

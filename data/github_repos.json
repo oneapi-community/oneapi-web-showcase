@@ -1,0 +1,576 @@
+[
+  {
+    "name": "AcceleratedKernels.jl ",
+    "description": "Cross-architecture parallel algorithms for Julia's CPU and GPU backends. Targets multithreaded CPUs, and GPUs via Intel oneAPI, AMD ROCm, Apple Metal, Nvidia CUDA.",
+    "url": "https://github.com/JuliaGPU/AcceleratedKernels.jl",
+    "updatedAt": "2025-03-31T14:08:07Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/3001575e5a71ff332593fb6bb0b4796100ebac86c87d31fc33abc780d2487576/JuliaGPU/AcceleratedKernels.jl"
+  },
+  {
+    "name": "OpenGesture",
+    "description": "OpenGesture for African Sign Language",
+    "url": "https://github.com/AfricaMachineIntelligence/OpenGesture",
+    "updatedAt": "2021-08-23T17:52:25Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/05fc07a2061abda8165ec32a320c94e679f5e9229a494096b309b108885f80b8/AfricaMachineIntelligence/OpenGesture"
+  },
+  {
+    "name": "Bangalore_House_Price_Prediction_oneAPI",
+    "description": "The Bengaluru House Prediction project is a machine learning-based solution designed to help potential homebuyers in Bangalore predict home prices accurately.",
+    "url": "https://github.com/aaronDev28/Bangalore_House_Price_Prediction_oneAPI",
+    "updatedAt": "2024-05-03T16:09:23Z",
+    "openGraphImageUrl": "https://repository-images.githubusercontent.com/614809399/6662d19e-bba5-43d0-92d4-d71ee7f0b54a"
+  },
+  {
+    "name": "COMIC-IFY_OneAPI",
+    "description": "Lets Make Learning Fun, Forever!",
+    "url": "https://github.com/S0L009/COMIC-IFY_OneAPI",
+    "updatedAt": "2024-12-30T10:31:39Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/ac6d83986f794f9359b93d67c4512916cf2f5f07710e35f309dea70db1962f07/S0L009/COMIC-IFY_OneAPI"
+  },
+  {
+    "name": "deepfake_detection",
+    "description": "We've created a DeepFake Detection system which intends to detect DeepFake videos using Deep Learning techniques like ResNext and LSTM.In this code, we've integrated Intel OneAPI ONEDAL for PCA preprocessing by using its PCA implementation. Additionally, we've imported tbb for potential parallel processing tasks.",
+    "url": "https://github.com/Amar1701/deepfake_detection",
+    "updatedAt": "2024-03-23T08:04:31Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/a8d47f2bec25f4de898ea87976a6bac40cfc94251cdbc7c24a59cbd955aac555/Amar1701/deepfake_detection"
+  },
+  {
+    "name": "Diagnosify",
+    "description": "Diagnosify is an innovative brain disease classification project designed to leverage the power of machine learning and Intel\u00ae oneAPIs for accurate and efficient brain disease prediction. ",
+    "url": "https://github.com/AK08/Diagnosify",
+    "updatedAt": "2023-08-18T06:47:24Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/67f8d5728e4ffe510baf2804ea0016bac8fbe6464d2a59b62ef51b50a12b0d7c/AK08/Diagnosify"
+  },
+  {
+    "name": "EDITH-Even-Deaf-I-m-The-Hero--Project_OneAPI_Hack_KPR",
+    "description": "Sign language interpreter",
+    "url": "https://github.com/IamRasengan/EDITH-Even-Deaf-I-m-The-Hero--Project_OneAPI_Hack_KPR",
+    "updatedAt": "2024-11-17T11:46:43Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/2e47e380d54a39138886d32e3d4f2c125851b951e3b3b91c953332229e0a6e59/IamRasengan/EDITH-Even-Deaf-I-m-The-Hero--Project_OneAPI_Hack_KPR"
+  },
+  {
+    "name": "Intel_OneAPI_Project",
+    "description": "SmartTravel Assistant \ud83c\udf0d\u2708\ufe0fis your ultimate travel companion, utilizing AI and ML \ud83e\udd16 to offer personalized itineraries, route optimization, accommodation suggestions, and real-time updates. hello to seamless adventures with SmartTravel Assistant. \u2728",
+    "url": "https://github.com/Reneiljoshua/Intel_OneAPI_Project",
+    "updatedAt": "2024-03-15T09:16:08Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/cf94a2b61e45f75da2051bac5be1d971db23a2efb2997b0e67d76e1eda9c6744/Reneiljoshua/Intel_OneAPI_Project"
+  },
+  {
+    "name": "OneAPI",
+    "description": "Insurance Fraud Detection Classififcation ML model using OneAPI (Decision Tree)",
+    "url": "https://github.com/SarahAsad13/OneAPI",
+    "updatedAt": "2024-05-09T16:40:50Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/b58ceb3f1cb115d3f0daf42267b456ac5007ca719d868dcb0077f380c3a84964/SarahAsad13/OneAPI"
+  },
+  {
+    "name": "Intel-oneAPI-Speech-Emotion-Recognition",
+    "description": null,
+    "url": "https://github.com/MAVRICK-1/Intel-oneAPI-Speech-Emotion-Recognition",
+    "updatedAt": "2024-05-27T16:44:48Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/47a45dd4a7358623426aab1d379a1c04e1d9eeb63916bb380166228fc07f89e9/MAVRICK-1/Intel-oneAPI-Speech-Emotion-Recognition"
+  },
+  {
+    "name": "LightwaveExplorer",
+    "description": "An efficient, user-friendly solver for nonlinear light-matter interaction",
+    "url": "https://github.com/NickKarpowicz/LightwaveExplorer",
+    "updatedAt": "2025-03-31T15:25:30Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/a3b6e08095b725088974299ae543dbb137f43ba4bf3f3e353886dd8f13c590e9/NickKarpowicz/LightwaveExplorer"
+  },
+  {
+    "name": "Loan_Acceptance_using_ML",
+    "description": "Machine Learning project for Loan Acceptance prediction with OneAPI optimization",
+    "url": "https://github.com/Gokulnath-A003/Loan_Acceptance_using_ML",
+    "updatedAt": "2024-11-17T06:04:59Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/071138c2bd7fec77d78915e1573e3efa3574a4b320227f5a8b000e2809e0f5f1/Gokulnath-A003/Loan_Acceptance_using_ML"
+  },
+  {
+    "name": "NeuralNetworkSim",
+    "description": "Neural Network Simulation Written in C++ using Intel OneAPI and ImGUI Libraries.",
+    "url": "https://github.com/Scot-Survivor/NeuralNetworkSim",
+    "updatedAt": "2023-10-15T16:42:51Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/ffa1a074f24f78580260d2f6ebd050e604c0e02ede2e2b4482b6fb2ed669d870/Scot-Survivor/NeuralNetworkSim"
+  },
+  {
+    "name": "PC-Part-Bot",
+    "description": "This is a project on Generative AI PC Part Recommender Bot developed using Intel oneAPI tools and created with Streamlit",
+    "url": "https://github.com/SuhasBrad/PC-Part-Bot",
+    "updatedAt": "2024-03-24T14:59:45Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/c7b8cc49821fd1b47ac87f9b094203161be6507a865c447f4b2b7b7fc4bebda5/SuhasBrad/PC-Part-Bot"
+  },
+  {
+    "name": "parallelSpmvSyclMulti-Queue",
+    "description": "Sylc version of parallelSpnv using multiple queues for the solution",
+    "url": "https://github.com/llueveYescampa/parallelSpmvSyclMulti-Queue",
+    "updatedAt": "2023-11-03T13:15:17Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/ad06a4a6be83641fc138ef2eb93382053cba994705ea8283f4ffe6e963d07039/llueveYescampa/parallelSpmvSyclMulti-Queue"
+  },
+  {
+    "name": "RUL-Prediction-from-NASA-s-Dataset-for-Aircraft-engines-using-Intel-oneAPI",
+    "description": null,
+    "url": "https://github.com/DrDeepthiAJ/RUL-Prediction-from-NASA-s-Dataset-for-Aircraft-engines-using-Intel-oneAPI",
+    "updatedAt": "2024-11-20T16:58:34Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/e5095cf6e80eb61b5f8505268d178d601d7c910e4c4f154b07d3d0016e7cbb66/DrDeepthiAJ/RUL-Prediction-from-NASA-s-Dataset-for-Aircraft-engines-using-Intel-oneAPI"
+  },
+  {
+    "name": "Intel-Hackathon",
+    "description": "This repository contains the implementation of a stock market prediction model for Microsoft stocks, developed as part of the Intel OneAPI AI Analytics Toolkit Hackathon. The project leverages advanced AI techniques and the Intel OneAPI AI Analytics Toolkit to train and deploy predictive models, aiming to forecast Microsoft stock prices.",
+    "url": "https://github.com/Charan051203/Intel-Hackathon",
+    "updatedAt": "2024-09-04T18:37:54Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/290987b9a05157725c8d59748278c886ab2c03e95ee4df9f773aa01c5129ff11/Charan051203/Intel-Hackathon"
+  },
+  {
+    "name": "RayBNN_DiffEq",
+    "description": "Differential Equation Solver using GPUs, CPUs, and FPGAs via CUDA, OpenCL, and oneAPI",
+    "url": "https://github.com/BrosnanYuen/RayBNN_DiffEq",
+    "updatedAt": "2024-06-18T05:51:09Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/c25600806fd59edc6dc4da3c58d0fd98886756385fdffaf518e714c04eeacd05/BrosnanYuen/RayBNN_DiffEq"
+  },
+  {
+    "name": "RayBNN_Graph",
+    "description": "Graph Manipulation Library For GPUs, CPUs, and FPGAs via CUDA, OpenCL, and oneAPI",
+    "url": "https://github.com/BrosnanYuen/RayBNN_Graph",
+    "updatedAt": "2024-06-18T06:10:24Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/2d1d784bc98530f35c5d9572d02efb6467be29d3e490546bd946400863051a87/BrosnanYuen/RayBNN_Graph"
+  },
+  {
+    "name": "RayBNN_Neural",
+    "description": "Neural Networks with Sparse Weights in Rust using GPUs, CPUs, and FPGAs via CUDA, OpenCL, and oneAPI ",
+    "url": "https://github.com/BrosnanYuen/RayBNN_Neural",
+    "updatedAt": "2025-03-15T06:11:50Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/1d1101fd78fb0e0d8dfc2fdd659a3c74f7f0779f36605141ed156ae21c75eff5/BrosnanYuen/RayBNN_Neural"
+  },
+  {
+    "name": "RayBNN_Raytrace",
+    "description": "Ray tracing library using GPUs, CPUs, and FPGAs via CUDA, OpenCL, and oneAPI ",
+    "url": "https://github.com/BrosnanYuen/RayBNN_Raytrace",
+    "updatedAt": "2025-03-16T21:11:27Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/44856adf5cbca4009221c8b5f37fe51bfa306bc77f48341fa49b06b330c4d2bf/BrosnanYuen/RayBNN_Raytrace"
+  },
+  {
+    "name": "RayBNN_Sparse",
+    "description": "Sparse Matrix Library for GPUs, CPUs, and FPGAs via CUDA, OpenCL, and oneAPI",
+    "url": "https://github.com/BrosnanYuen/RayBNN_Sparse",
+    "updatedAt": "2024-06-18T05:49:23Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/9bb4e07544be4be845d4f9a5f4c7ac4dc07e9b84e27733a1a6406946f01f666e/BrosnanYuen/RayBNN_Sparse"
+  },
+  {
+    "name": "SYCL",
+    "description": "Testing physics implementation of SYCL and OneApi",
+    "url": "https://github.com/Parsifal-2045/SYCL",
+    "updatedAt": "2024-09-23T08:11:04Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/6be7eb41491e29b4d8026d0c40d35335dd6fcc4d89c1b7e7b253da1fe40dba15/Parsifal-2045/SYCL"
+  },
+  {
+    "name": "SYCL-IntelGPU-Quickstart",
+    "description": "Lightweight & simplified approach to SYCL development",
+    "url": "https://github.com/DominikLindorfer/SYCL-IntelGPU-Quickstart",
+    "updatedAt": "2024-11-23T09:27:07Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/e5160f79dd393e70e96836366b8f6875b433ea1bd6f367bd40175bc00d7097ac/DominikLindorfer/SYCL-IntelGPU-Quickstart"
+  },
+  {
+    "name": "SYCL-fNIRS-motion-detection",
+    "description": "SYCL machine learning libraries to detect motion detection in fNIRS   ",
+    "url": "https://github.com/WOLVS/SYCL-fNIRS-motion-detection",
+    "updatedAt": "2023-05-01T09:55:03Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/d3decf346e8130cb6294a47f8fbf0c12ba688112723a8824a626be92310a9a55/WOLVS/SYCL-fNIRS-motion-detection"
+  },
+  {
+    "name": "SYCL-ray-tracing",
+    "description": "C++ & SYCL Monte Carlo Path Tracer",
+    "url": "https://github.com/TomClabault/SYCL-ray-tracing",
+    "updatedAt": "2024-11-03T17:36:11Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/2aeea0d25db785b8197eedf95cc547a4d46cfaa46bbe803523c652315412c63d/TomClabault/SYCL-ray-tracing"
+  },
+  {
+    "name": "Sign_Language_Translator-OneAPI",
+    "description": "A sign language gesture translator leveraging Intel-oneAPI, facilitating real-time translation between sign language and spoken language. It utilizes advanced parallel processing capabilities for efficient and accurate interpretation.",
+    "url": "https://github.com/manikavyareddy27/Sign_Language_Translator-OneAPI",
+    "updatedAt": "2024-04-14T07:08:34Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/e43b9dcdc42e3ff522e708e5380a33aa2a21172421924423f5015b8d86cc1951/manikavyareddy27/Sign_Language_Translator-OneAPI"
+  },
+  {
+    "name": "TMIP-2019-nCoV-Recognition",
+    "description": "Treatise of Medical Image Processing (TMIP) v0.2.0",
+    "url": "https://github.com/TebogoNakampe/TMIP-2019-nCoV-Recognition",
+    "updatedAt": "2024-05-06T14:47:18Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/56a04ba19e5a3f287deceef9604b44f9fd7de8f300020bfcee25ed6c71ac50c2/TebogoNakampe/TMIP-2019-nCoV-Recognition"
+  },
+  {
+    "name": "VapourSynth-BilateralGPU",
+    "description": "Bilateral filter in CUDA and SYCL for VapourSynth.",
+    "url": "https://github.com/WolframRhodium/VapourSynth-BilateralGPU",
+    "updatedAt": "2023-11-08T05:33:42Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/bc0690fc9da2b17ba5c539c4ea8228f1c0feef356c1bbbda2d2888a016687709/WolframRhodium/VapourSynth-BilateralGPU"
+  },
+  {
+    "name": "altis_sycl",
+    "description": "Altis-SYCL: a SYCL-based implementation of the Altis GPGPU benchmark suite for CPUs, GPUs, and FPGAs.",
+    "url": "https://github.com/esa-tu-darmstadt/altis_sycl",
+    "updatedAt": "2023-09-28T03:18:39Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/e3ac0a72a75d48265f4a2286931f2bc21ffae16a5b424dad873da2f87352523f/esa-tu-darmstadt/altis_sycl"
+  },
+  {
+    "name": "Breastcancer_withoneAPI",
+    "description": null,
+    "url": "https://github.com/shriramkv/Breastcancer_withoneAPI",
+    "updatedAt": "2023-02-16T05:41:52Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/61961540b839768c41927eff0d77a86adc9853cbcf2c7f2436282a8e803ad74b/shriramkv/Breastcancer_withoneAPI"
+  },
+  {
+    "name": "IntelOneAPI",
+    "description": "This repository houses the codebase for a cardiovascular risk prediction project developed during a hackathon. Leveraging Intel's OneAPI toolkit, this project explores advanced analytics techniques and machine learning algorithms to predict cardiovascular risks. ",
+    "url": "https://github.com/arshika21cs007/IntelOneAPI",
+    "updatedAt": "2024-04-24T08:38:57Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/4291a2e51b2f364ab0d6cebe3933972da50bf31bc2dc36cdce35358d1a87733b/arshika21cs007/IntelOneAPI"
+  },
+  {
+    "name": "cleansweep",
+    "description": null,
+    "url": "https://github.com/Akhil5347/cleansweep",
+    "updatedAt": "2023-03-18T15:11:02Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/2b6e3d31040739f5b711dc6da494c18162786fbcd114e90637de0b073570848b/Akhil5347/cleansweep"
+  },
+  {
+    "name": "CROP_PREDICTION_oneAPI",
+    "description": null,
+    "url": "https://github.com/JoelJJoseph/CROP_PREDICTION_oneAPI",
+    "updatedAt": "2023-03-28T09:28:52Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/9fb74105d29434700e92ea04b4cbf000afcf5b7c18861da2ca427e5d7a0e3dc6/JoelJJoseph/CROP_PREDICTION_oneAPI"
+  },
+  {
+    "name": "data-self-organisation-vi",
+    "description": "Genetic algorithms & cellular automa learning experiments",
+    "url": "https://github.com/phill-holland/data-self-organisation-vi",
+    "updatedAt": "2024-07-19T20:42:49Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/6b811f3738bea3653b7bc58e49f6e7eef3b02231d3a5fd9fa24a7c27a3c682f6/phill-holland/data-self-organisation-vi"
+  },
+  {
+    "name": "dpcpp-svm",
+    "description": "oneAPI DPC++ implementation of thundersvm",
+    "url": "https://github.com/floatshadow/dpcpp-svm",
+    "updatedAt": "2024-05-18T17:06:54Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/edfea6100e794281a33dca756e34994b2a1f8553a5bf230699c8311b5dc340fe/floatshadow/dpcpp-svm"
+  },
+  {
+    "name": "dwarf_bench",
+    "description": "Dbench is a collection of parallel hardware agnostic microbenchmarks that aim at capturing the most important patterns in analytical query execution",
+    "url": "https://github.com/kurapov-peter/dwarf_bench",
+    "updatedAt": "2023-03-06T22:30:21Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/5d22318a5f91e7842717b565d9c7729c53e9c370a31182182a1272ebec77cd0e/kurapov-peter/dwarf_bench"
+  },
+  {
+    "name": "fpga-streams-bandwith",
+    "description": "Load vs Store comparison on Intel FPGA using oneAPI",
+    "url": "https://github.com/fm16191/fpga-streams-bandwith",
+    "updatedAt": "2024-07-04T12:15:17Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/0dc587a4bc123d00f445e49b98e4702e0925370df4fa32be464e33a74071503a/fm16191/fpga-streams-bandwith"
+  },
+  {
+    "name": "hias-all-oneapi-classifier",
+    "description": "A HIAS compatible Acute Lymphoblastic Leukemia classifier trained using Intel Distribution for Python and Intel Optimized Tensorflow. Uses OpenVINO to deploy the model to a Raspberry Pi and Neural Compute Stick 2 for inference on the edge.",
+    "url": "https://github.com/leukaemiamedtech/hias-all-oneapi-classifier",
+    "updatedAt": "2024-12-17T02:43:42Z",
+    "openGraphImageUrl": "https://repository-images.githubusercontent.com/363257303/0e989e80-aa2f-11eb-8852-8a2f9832d52a"
+  },
+  {
+    "name": "HSM",
+    "description": "A high-performance C++ cryptography library for secure data encryption and decryption, developed with multithreading, GPU acceleration via Intel oneAPI, and gRPC for authenticated communication with hardware components.",
+    "url": "https://github.com/TehilaTheStudent/HSM",
+    "updatedAt": "2024-12-08T00:36:16Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/f74590cf73cd99267bce7f5173a963ff9f41edecf7f554e4f486078fc4041baf/TehilaTheStudent/HSM"
+  },
+  {
+    "name": "OneAPI",
+    "description": "Insurance Fraud Detection Classififcation ML model using OneAPI (Decision Tree)",
+    "url": "https://github.com/SarahAsad13/OneAPI",
+    "updatedAt": "2024-05-09T16:40:50Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/b58ceb3f1cb115d3f0daf42267b456ac5007ca719d868dcb0077f380c3a84964/SarahAsad13/OneAPI"
+  },
+  {
+    "name": "levelzero-jni",
+    "description": "Intel LevelZero JNI library for TornadoVM ",
+    "url": "https://github.com/beehive-lab/levelzero-jni",
+    "updatedAt": "2024-09-20T16:39:13Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/bff2ada5fbce049097cdfc447520de7053b3e1a8969a7f85ea0a36f57cfa885f/beehive-lab/levelzero-jni"
+  },
+  {
+    "name": "llama-cpp-mkl-docker",
+    "description": " \"From Scratch\" build of containerized LLAMA.CPP optimized for Intel CPUs, using Intel OneAPI/MKL",
+    "url": "https://github.com/thebiss/llama-cpp-mkl-docker",
+    "updatedAt": "2025-01-10T12:58:06Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/365d98bb324a9fe9465e4e47db8c1adaf4bb357520ad963a1f55cbbf4436ab6d/thebiss/llama-cpp-mkl-docker"
+  },
+  {
+    "name": "llm.sycl",
+    "description": "llm.c, but in SYCL/Intel oneAPI! ",
+    "url": "https://github.com/mspronesti/llm.sycl",
+    "updatedAt": "2024-11-26T23:17:53Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/fa979e02a00347d21833a1ba012b1aec258120c67d40d0b4009cf8070408547a/mspronesti/llm.sycl"
+  },
+  {
+    "name": "LunarModel_Oneapi",
+    "description": "copying",
+    "url": "https://github.com/kuber2001/LunarModel_Oneapi",
+    "updatedAt": "2023-03-23T21:00:40Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/1405b7ae945219429c1b8d1a955f64e349b19ea805aaa59ae0f3957d208d95bd/kuber2001/LunarModel_Oneapi"
+  },
+  {
+    "name": "mkl-verbose-toolkit",
+    "description": "Tools to run and parse MKL verbose mode",
+    "url": "https://github.com/TApplencourt/mkl-verbose-toolkit",
+    "updatedAt": "2024-08-09T02:50:39Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/bb85b2d02b0dbac93fe8b5fff352262399b79130098b7165fe26402ea8b7700a/TApplencourt/mkl-verbose-toolkit"
+  },
+  {
+    "name": "muSYCL",
+    "description": "muSYCL, the SYCL musical!",
+    "url": "https://github.com/keryell/muSYCL",
+    "updatedAt": "2024-08-25T02:08:53Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/1805ae7231e3a25da5525e79a76ed42315bc98c0f327b5406bb148c81406a9dd/keryell/muSYCL"
+  },
+  {
+    "name": "numpy-mkl-wheels",
+    "description": "Wheels for Python on Windows, linked to oneAPI MKL.",
+    "url": "https://github.com/cgohlke/numpy-mkl-wheels",
+    "updatedAt": "2025-03-26T19:58:05Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/990c1098b7e35992d3569703207e961c532300f36d707d8a89f00ad5c5c0f63c/cgohlke/numpy-mkl-wheels"
+  },
+  {
+    "name": "one4all",
+    "description": "A framework to streamline developing for CUDA, ROCm and oneAPI at the same time",
+    "url": "https://github.com/arminms/one4all",
+    "updatedAt": "2025-03-28T22:42:14Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/db2b851aa8e1d81d4917b0ff481976096632dff7cc011c6bea5cff0e26ad11bc/arminms/one4all"
+  },
+  {
+    "name": "OneAPI-Crop-recommendation-model",
+    "description": null,
+    "url": "https://github.com/huziibee/OneAPI-Crop-recommendation-model",
+    "updatedAt": "2024-01-17T01:31:05Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/b37f48e49f106d522587d4d3ed7495977ad9c257301d031c21e3082d252b6e62/huziibee/OneAPI-Crop-recommendation-model"
+  },
+  {
+    "name": "oneAPI-FPGA",
+    "description": "Developing Applications using Intel\u00ae oneAPI  for FPGAs",
+    "url": "https://github.com/ekieffer/oneAPI-FPGA",
+    "updatedAt": "2023-08-18T08:37:52Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/d137dd363dfd58e1802dd2e6f36602784b7b4c8137e60200ba1b809e089a7e41/ekieffer/oneAPI-FPGA"
+  },
+  {
+    "name": "oneAPI-samples-Feb2022",
+    "description": null,
+    "url": "https://github.com/raoberman/oneAPI-samples-Feb2022",
+    "updatedAt": "2022-02-24T21:15:13Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/cadec9fb5759c930f38448fdd160a150df1c760ebc651420ac275c294ade445d/raoberman/oneAPI-samples-Feb2022"
+  },
+  {
+    "name": "oneMD",
+    "description": "Data-parallel molecular dynamics simulator for Intel oneAPI.",
+    "url": "https://github.com/allisterb/oneMD",
+    "updatedAt": "2024-11-16T15:14:34Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/900d6842d84f92ebd93e1824ba2aa8a07d1c9255308e735d6f193a29608c3ad8/allisterb/oneMD"
+  },
+  {
+    "name": "oneAPI-AI-and-HPC-DevSummit-2023-workshop",
+    "description": "LLM Custom Chatbot development with Huggingface opensource Mistral 7B model with Intel Developer Cloud (IDC)",
+    "url": "https://github.com/kazi92/oneAPI-AI-and-HPC-DevSummit-2023-workshop",
+    "updatedAt": "2024-12-01T10:29:42Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/7f8effc3418b373776a5f4912e405a7d3a4c7ab4114855f0ece71d84d625495a/kazi92/oneAPI-AI-and-HPC-DevSummit-2023-workshop"
+  },
+  {
+    "name": "oneapi-antispoofing",
+    "description": "Certiface AntiSpoofing use oneAPI for fast decode video for perform liveness detection with inference.",
+    "url": "https://github.com/cabelo/oneapi-antispoofing",
+    "updatedAt": "2023-03-06T19:57:49Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/70b6342474243fb41adc9153b729362bee6b0bedf809bac203bcd47577553be8/cabelo/oneapi-antispoofing"
+  },
+  {
+    "name": "oneapi-cli",
+    "description": null,
+    "url": "https://github.com/intel/oneapi-cli",
+    "updatedAt": "2025-03-21T05:05:36Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/3f7ca8a2226ff2bc00559417f0dc7b66ec7f891131b3dde45b42ac1e68610d6f/intel/oneapi-cli"
+  },
+  {
+    "name": "oneapi-construction-kit",
+    "description": null,
+    "url": "https://github.com/uxlfoundation/oneapi-construction-kit",
+    "updatedAt": "2025-04-02T16:53:10Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/1e685b362d145affa433f50acd75f7e02cb70052eeec6a4c5c9ac0157ecff84d/uxlfoundation/oneapi-construction-kit"
+  },
+  {
+    "name": "oneAPI_course",
+    "description": "oneAPI - Data Parallel C++ course for students",
+    "url": "https://github.com/pengzhao-intel/oneAPI_course",
+    "updatedAt": "2025-02-27T10:00:37Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/3646e3d8cedd4e1929524794c24d4a4e6520abd35b95e05418ff8abdb3fb2a4b/pengzhao-intel/oneAPI_course"
+  },
+  {
+    "name": "oneapi-crystal",
+    "description": "SYCL implementation of the Crystal library for SQL queries on GPU and CPU, based on http://anilshanbhag.in/static/papers/crystal_sigmod20.pdf",
+    "url": "https://github.com/mspronesti/oneapi-crystal",
+    "updatedAt": "2025-01-08T06:02:25Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/cf42096180dea72ba2025290c738c927c6388ccb4e2f00fbd19db50e612d8634/mspronesti/oneapi-crystal"
+  },
+  {
+    "name": "oneapi_dct",
+    "description": "Use OneAPI to implement the DCT algorithm. Reference from Intel OneAPI Github.",
+    "url": "https://github.com/derolol/oneapi_dct",
+    "updatedAt": "2023-01-15T11:02:57Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/8a3e275d8275de118eb0478ea7e6561df843a73d5b5c9972a1b498786cb059d5/derolol/oneapi_dct"
+  },
+  {
+    "name": "oneAPI-",
+    "description": null,
+    "url": "https://github.com/NicholasTerek/oneAPI-",
+    "updatedAt": "2024-11-30T02:23:04Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/e42276e2cfa390c812ed9985e21413304a5d0ca81c1bb2642bc5c3b56843cbeb/NicholasTerek/oneAPI-"
+  },
+  {
+    "name": "oneapi_hackathon",
+    "description": "This repository is about Flan-t5 model which is used widely for Question Answering model. ",
+    "url": "https://github.com/aravind2k/oneapi_hackathon",
+    "updatedAt": "2023-11-09T12:54:51Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/5daeded2d424f888030095c1e28d69cee49e1e6cc40ab0da7301a34d00bfcf19/aravind2k/oneapi_hackathon"
+  },
+  {
+    "name": "onevpl-rs",
+    "description": "A rust wrapper around the Intel OneAPI Video Processing Library",
+    "url": "https://github.com/FallingSnow/onevpl-rs",
+    "updatedAt": "2024-11-30T17:39:25Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/5bbf6746c22297fa1724673363549b55c155bff3d67dbb17056c7459374ff402/FallingSnow/onevpl-rs"
+  },
+  {
+    "name": "Online_Speech_therapist",
+    "description": "Its a project built in a Intel's oneAPI hackathon,helps users to find thier speech therapist for their kids and improve thier speech by doing various inbuilt activities",
+    "url": "https://github.com/pragathish07/Online_Speech_therapist",
+    "updatedAt": "2024-12-30T00:33:55Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/e36794b5e37c7e643a28ef3c8ecf046edcc4b8d0538845dac3e64ed9cd9187a6/pragathish07/Online_Speech_therapist"
+  },
+  {
+    "name": "parallel_computing_in_practice",
+    "description": "Examples of deploying and computing with SYCL, OpenCL, Level Zero and OpenMP on GPU devices for enhanced parallel performance",
+    "url": "https://github.com/apinge/parallel_computing_in_practice",
+    "updatedAt": "2025-02-12T00:25:09Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/81fa203af3bc13c7408221691406f755c683c542883af42326ae3afb823e0361/apinge/parallel_computing_in_practice"
+  },
+  {
+    "name": "setup-oneapi",
+    "description": "oneapi installer for github actions",
+    "url": "https://github.com/rscohn2/setup-oneapi",
+    "updatedAt": "2025-01-06T15:17:51Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/c6f5558163654ef021a0dd4d2456426843cb24c2d6f794f6473ade1bbc9b042c/rscohn2/setup-oneapi"
+  },
+  {
+    "name": "Smart-Garbage-Segregation",
+    "description": "Image classification for recycling refers to the use of machine learning algorithms to automatically classify images of waste materials, such as plastic, paper, and metal, into their respective categories.",
+    "url": "https://github.com/raison024/Smart-Garbage-Segregation",
+    "updatedAt": "2025-03-24T07:38:42Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/be276f8f3630196fe28cecf7a369ef3b66c2eb68f17092352264ff0a8906a695/raison024/Smart-Garbage-Segregation"
+  },
+  {
+    "name": "stable-diffusion-docker",
+    "description": "Custom build of stable-diffusion-docker-ui with various plugins, ad-hoc compiled (SYCL, CUDA 7.5+PTX, Skylake Server Arch) tensorflow and optimized (RTX 7.5, CUDA+cuDD 11.2, Arch Skylake) OneDNN binaries.",
+    "url": "https://github.com/P2Enjoy/stable-diffusion-docker",
+    "updatedAt": "2024-04-25T11:48:17Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/43a60f38c7e1246909b096637dd62a673b1dd52780febfe3540da4a39685db7e/P2Enjoy/stable-diffusion-docker"
+  },
+  {
+    "name": "sycl-bfs",
+    "description": null,
+    "url": "https://github.com/antonio-decaro/sycl-bfs",
+    "updatedAt": "2023-11-23T10:40:08Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/941a813dd76fddbeea09fb6ffd55fd797d75a78ffdcfbf8c60417c614104f990/antonio-decaro/sycl-bfs"
+  },
+  {
+    "name": "sycl-collision-sim",
+    "description": "Example SYCL implementation of collision detection",
+    "url": "https://github.com/rafbiels/sycl-collision-sim",
+    "updatedAt": "2023-04-14T13:18:26Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/495fffa6d4617409716d526e28cf1d29d19ba181e1942492c0f093faa58ff1e8/rafbiels/sycl-collision-sim"
+  },
+  {
+    "name": "sycl-intel-spec",
+    "description": null,
+    "url": "https://github.com/antonio-decaro/sycl-intel-spec",
+    "updatedAt": "2023-12-21T19:29:21Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/ead7614c7cf6caa8bf492909468189f756d153a1a23000c2a3bf3a55b4f01d10/antonio-decaro/sycl-intel-spec"
+  },
+  {
+    "name": "sycl-mapping-api-scanner",
+    "description": "A utility to help analyze CUDA-SYCL migration projects and provide a summary report regarding the current support status of SYCL mapping/migration APIs tracked by Intel SYCLomatic open source project. The database of CUDA migration APIs is stored under https://github.com/oneapi-src/SYCLomatic/tree/SYCLomatic/docs/dev_guide/api-mapping-status",
+    "url": "https://github.com/Joel-lin/sycl-mapping-api-scanner",
+    "updatedAt": "2024-07-16T03:58:12Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/8e1dfa5dabc1275e89f663abcfeae57a9f234c746d6f82c5efd9102879b0fe2d/Joel-lin/sycl-mapping-api-scanner"
+  },
+  {
+    "name": "sycl-ray-tracer",
+    "description": null,
+    "url": "https://github.com/felipeagc/sycl-ray-tracer",
+    "updatedAt": "2024-01-22T07:04:53Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/350473da47566bc4a770bbd1004ac758eaccebcaacb27dd00e8705b2d27d0b10/felipeagc/sycl-ray-tracer"
+  },
+  {
+    "name": "sycl-test-offload",
+    "description": "A sandbox for testing a SYCL-enabled DLL + a non-SYCL test program",
+    "url": "https://github.com/jonathan-ramsey/sycl-test-offload",
+    "updatedAt": "2023-10-23T16:08:52Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/1939127c5ee4494d679eb40121c0e9cbfebf988c26b221e94ac6d5b3291f0811/jonathan-ramsey/sycl-test-offload"
+  },
+  {
+    "name": "sycl_tutorial",
+    "description": null,
+    "url": "https://github.com/alanzhai219/sycl_tutorial",
+    "updatedAt": "2025-02-08T03:30:14Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/3a1f7d354d7882c3e499ec0280999bcca6daf9a77a17920f0f9515d7810578e6/alanzhai219/sycl_tutorial"
+  },
+  {
+    "name": "toneapi",
+    "description": "template wrappers for Intel oneAPI",
+    "url": "https://github.com/tpl2go/toneapi",
+    "updatedAt": "2024-07-14T05:56:08Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/21102a5f546c3a3cc9fda53c3c17174af0e6b78d4997e8d427efb3b4e494a535/tpl2go/toneapi"
+  },
+  {
+    "name": "visionsycl",
+    "description": "Attempt to provide common image processing functions that runs on heterogeneous devices.",
+    "url": "https://github.com/jusqua/visionsycl",
+    "updatedAt": "2025-03-01T14:37:09Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/efc68a6fd24fbe9357bb8228596699cbdac269f97eeaebfa71b0ab70f0ce8b19/jusqua/visionsycl"
+  },
+  {
+    "name": "vivid-oneAPI-JSupercomputing",
+    "description": "Repository with source files of the vivid-oneAPI project",
+    "url": "https://github.com/cricamfe/vivid-oneAPI-JSupercomputing",
+    "updatedAt": "2025-01-24T09:58:49Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/573bd0ae1634755daa69bc3e94ccf6ce4c186dd38a5f7f6120fc07c0c13e64a9/cricamfe/vivid-oneAPI-JSupercomputing"
+  },
+  {
+    "name": "vscode-oneapi-extension-pack",
+    "description": null,
+    "url": "https://github.com/intel/vscode-oneapi-extension-pack",
+    "updatedAt": "2025-03-21T05:07:36Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/14067e074512b1b28e10b64bd94c59e7bfc66698472c713d00f164e707aff371/intel/vscode-oneapi-extension-pack"
+  },
+  {
+    "name": "warpaffine",
+    "description": "experimental Deskew operation",
+    "url": "https://github.com/ZEISS/warpaffine",
+    "updatedAt": "2025-01-22T15:33:13Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/c4f249411c67298dc11eb110c2d0a4960e24c17d50881212a934b7bed5958ef9/ZEISS/warpaffine"
+  },
+  {
+    "name": "Intel-oneAPI",
+    "description": " A water quality analysis and prediction system using Intel's oneAPI Data Analytics Library and  traditional Python libraries. The project involves exploring a large-scale water quality dataset, conducting  thorough data cleaning, and implementing a machine learning model for predicting water quality.",
+    "url": "https://github.com/rahulg202/Intel-oneAPI",
+    "updatedAt": "2024-07-29T18:34:53Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/b4bfc546dfb28aa8640443993226fcb5ee021ffd1a2fa94fd7066a0ae68341ad/rahulg202/Intel-oneAPI"
+  },
+  {
+    "name": "xpu",
+    "description": "Compile and run C++ code with CUDA, HIP, SYCL or OpenMP.",
+    "url": "https://github.com/fweig/xpu",
+    "updatedAt": "2025-02-13T22:16:31Z",
+    "openGraphImageUrl": "https://opengraph.githubassets.com/5e72f39674384a650bdcf4f31341213525ccb4fcb385a766e000143d4dca6bd1/fweig/xpu"
+  }
+]

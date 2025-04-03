@@ -1,11 +1,24 @@
     {{ $repos := slice }}
-    {{ $opts := dict "Authorization" (printf "Bearer %s" (getenv "GH_TOKEN")) }}
+    {{ $data := dict }}
+    {{ printf "repos is $repos" }}
+    {{ $opts := dict "headers" (dict "Authorization" (printf "Bearer %s" (getenv "GH_TOKEN"))) }}
     {{ range (where .Site.RegularPages "Section" "projects").Reverse }}
       {{ $s := .Params.githublink }}
       {{ $gh_repo_query_url := replaceRE `(https://github.com)` "https://api.github.com/repos" $s }}
-      {{ with getJSON $gh_repo_query_url $opts }}
-        {{ $repos = $repos | append . }}
+      {{ with try (resources.GetRemote $gh_repo_query_url  $opts) }}
+      	{{ with .Err }}
+		{{ errorf "%s" . }}
+	{{ else with .Value }}
+	        {{ $data = . | transform.Unmarshal }}
+		{{ printf $data }}
+		{{ $repos = $repos | append $data }}
+	{{ else }}
+		{{ errorf "Unable to get remote resource %q" $gh_repo_query_url }}
+	{{ end }}
       {{ end }}
-    {{ end }}
-    {{ $gh_sorted_by_activity := sort $repos "updated_at"  "desc"}}
-    {{ return $gh_sorted_by_activity }}
+   {{ end }}
+   {{ range $repos}}
+	   {{ printf .html_url }}
+   {{ end }}
+   {{ $gh_sorted_by_activity := sort $repos "updated_at"  "desc"}}
+   {{ return $gh_sorted_by_activity }}

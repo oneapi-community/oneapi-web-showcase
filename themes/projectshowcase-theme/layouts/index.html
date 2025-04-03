@@ -37,15 +37,16 @@
 	<h2> Recently updated projects &nbsp; &nbsp; <button class="button-more"> <a href="recent-projects"> MORE </a></button></h2> 
 </div>
 
-<div class="projectgrid-recent-container">
-  {{ range partial "return-recent-github-projects.html" . | first 9 }}
-	<div class="projectgrid-recent-items">
-    {{ $cur_github_url := .html_url }}
-    {{ $cur_date_repo := .updated_at }}
-    {{ $repo_image := replaceRE `(https://github.com)` "https://opengraph.githubassets.com/6437" $cur_github_url }}
-    <a href="{{ $cur_github_url }}"> <img src={{ $repo_image }}> </img> </a>
-  </div> 
-  {{ end }}
+
+<div class="projectgrid-container">
+{{ $sortedRepos := partial "return-recent-github-projects.html" . }}
+{{ range $sortedRepos | first 9 }}
+  <div class="projectgrid-item">
+    <a href="{{ .url }}">
+	<img src="{{ .image }}" alt="{{ .name }}">
+    </a>
+  </div>
+{{ end }}
 </div>
 
 <br>
@@ -66,6 +67,5 @@
         </div>
     {{ end }}
 </div>
--->
 {{ end }}
 

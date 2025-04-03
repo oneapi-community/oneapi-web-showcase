@@ -1,14 +1,21 @@
-    {{ $repos := slice }}
-    {{ $opts := dict "Authorization" (printf "Bearer %s" (getenv "GH_TOKEN")) }}
-    {{ range (where .Site.RegularPages "Section" "projects").Reverse }}
-      {{ $s := .Params.githublink }}
-      {{ $gh_repo_query_url := replaceRE `(https://github.com)` "https://api.github.com/repos" $s }}
-      {{ with getJSON $gh_repo_query_url $opts }}
-        {{ $repos = $repos | append . }}
-      {{ end }}
-   {{ end }}
-   {{ range $repos}}
-	   {{ printf .html_url }}
-   {{ end }}
-   {{ $gh_sorted_by_activity := sort $repos "updated_at"  "desc"}}
-   {{ return $gh_sorted_by_activity }}
+{{ $raw := site.Data.github_repos }}
+{{ $repos := slice }}
+
+
+{{ range $raw }}
+  {{ $r := . }}
+  {{ with $r.openGraphImageUrl }}
+    {{ $remote := resources.GetRemote . }}
+    {{ if $remote }}
+      {{ $repo := dict
+        "name" $r.name
+        "url" $r.url
+        "image" $remote.RelPermalink
+        "updatedAt" $r.updatedAt
+      }}
+      {{ $repos = $repos | append $repo }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return (sort $repos "updatedAt" "desc") }}

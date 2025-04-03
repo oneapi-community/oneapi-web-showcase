@@ -1,4 +1,3 @@
-==== BASE ====
     {{ $repos := slice }}
     {{ $opts := dict "Authorization" (printf "Bearer %s" (getenv "GH_TOKEN")) }}
     {{ range (where .Site.RegularPages "Section" "projects").Reverse }}

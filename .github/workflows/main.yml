@@ -1,31 +1,44 @@
 name: oneAPIShowCaseCommit
+
 on: 
   push:
     branches:
-      - main # trigger deployment when using main branch
+      - main
+
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
 
 permissions: read-all
-  
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
     environment: HUGOSHOWCASE
     permissions:
       contents: write
+
     steps:
       - name: Git checkout
         uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
-      - name: Setup hugo
+
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-      - name: Build
-        run: hugo --minify
+
+      - name: Install ujust
+        run: |
+          curl -fsSL https://just.systems/install.sh | bash -s -- --to /usr/local/bin
+          just --version
+
+      - name: Make warm-graph-images.sh executable
+        run: chmod +x ./scripts/warm-graph-images.sh
+
+      - name: Build with ujust (warm cache + hugo)
+        run: just build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

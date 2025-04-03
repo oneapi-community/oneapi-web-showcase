@@ -1,6 +1,7 @@
 {{ $raw := site.Data.github_repos }}
 {{ $repos := slice }}
 
+
 {{ range $raw }}
   {{ $r := . }}
   {{ with $r.openGraphImageUrl }}
